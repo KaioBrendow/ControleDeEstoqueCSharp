@@ -8,12 +8,12 @@ namespace Modelo
 {
     public class ModeloCategoria
     {
-        ModeloCategoria()
+        public ModeloCategoria()
         {
             this.CatCod = 0;
             this.CatNome = "";
         }
-        ModeloCategoria(int catcod, String nome)
+        public ModeloCategoria(int catcod, String nome)
         {
             this.CatCod = catcod;
             this.CatNome = nome;
