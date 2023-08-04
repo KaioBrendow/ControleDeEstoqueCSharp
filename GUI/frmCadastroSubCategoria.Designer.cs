@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmCadastroCategoria
+    partial class frmCadastroSubCategoria
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,9 @@
             btInserir = new Button();
             pnDados = new Panel();
             txtNome = new TextBox();
-            txtCodigo = new TextBox();
+            txtScatCod = new TextBox();
+            label3 = new Label();
+            cbCatCod = new ComboBox();
             label2 = new Label();
             label1 = new Label();
             pnBotoes.SuspendLayout();
@@ -68,7 +70,6 @@
             btCancelar.Text = "Cancelar";
             btCancelar.TextAlign = ContentAlignment.BottomCenter;
             btCancelar.UseVisualStyleBackColor = true;
-            btCancelar.Click += btCancelar_Click;
             // 
             // btSalvar
             // 
@@ -81,7 +82,6 @@
             btSalvar.Text = "Salvar";
             btSalvar.TextAlign = ContentAlignment.BottomCenter;
             btSalvar.UseVisualStyleBackColor = true;
-            btSalvar.Click += btSalvar_Click;
             // 
             // btExcluir
             // 
@@ -94,7 +94,6 @@
             btExcluir.Text = "Excluir";
             btExcluir.TextAlign = ContentAlignment.BottomCenter;
             btExcluir.UseVisualStyleBackColor = true;
-            btExcluir.Click += btExcluir_Click;
             // 
             // btAlterar
             // 
@@ -107,7 +106,6 @@
             btAlterar.Text = "Alterar";
             btAlterar.TextAlign = ContentAlignment.BottomCenter;
             btAlterar.UseVisualStyleBackColor = true;
-            btAlterar.Click += btAlterar_Click;
             // 
             // btLocalizar
             // 
@@ -120,7 +118,6 @@
             btLocalizar.Text = "Localizar";
             btLocalizar.TextAlign = ContentAlignment.BottomCenter;
             btLocalizar.UseVisualStyleBackColor = true;
-            btLocalizar.Click += btLocalizar_Click;
             // 
             // btInserir
             // 
@@ -138,7 +135,9 @@
             // pnDados
             // 
             pnDados.Controls.Add(txtNome);
-            pnDados.Controls.Add(txtCodigo);
+            pnDados.Controls.Add(txtScatCod);
+            pnDados.Controls.Add(label3);
+            pnDados.Controls.Add(cbCatCod);
             pnDados.Controls.Add(label2);
             pnDados.Controls.Add(label1);
             pnDados.Location = new Point(8, 9);
@@ -148,48 +147,65 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(21, 78);
+            txtNome.Location = new Point(21, 95);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(740, 23);
-            txtNome.TabIndex = 3;
+            txtNome.Size = new Size(712, 23);
+            txtNome.TabIndex = 5;
             // 
-            // txtCodigo
+            // txtScatCod
             // 
-            txtCodigo.Enabled = false;
-            txtCodigo.Location = new Point(21, 34);
-            txtCodigo.Name = "txtCodigo";
-            txtCodigo.Size = new Size(119, 23);
-            txtCodigo.TabIndex = 2;
+            txtScatCod.Enabled = false;
+            txtScatCod.Location = new Point(21, 36);
+            txtScatCod.Name = "txtScatCod";
+            txtScatCod.Size = new Size(98, 23);
+            txtScatCod.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(21, 149);
+            label3.Name = "label3";
+            label3.Size = new Size(110, 15);
+            label3.TabIndex = 3;
+            label3.Text = "Nome da Categoria";
+            // 
+            // cbCatCod
+            // 
+            cbCatCod.FormattingEnabled = true;
+            cbCatCod.Location = new Point(21, 167);
+            cbCatCod.Name = "cbCatCod";
+            cbCatCod.Size = new Size(360, 23);
+            cbCatCod.TabIndex = 2;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(21, 60);
+            label2.Location = new Point(21, 77);
             label2.Name = "label2";
-            label2.Size = new Size(110, 15);
+            label2.Size = new Size(130, 15);
             label2.TabIndex = 1;
-            label2.Text = "Nome da Categoria";
+            label2.Text = "Nome da SubCategoria";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(21, 16);
+            label1.Location = new Point(21, 18);
             label1.Name = "label1";
             label1.Size = new Size(46, 15);
             label1.TabIndex = 0;
             label1.Text = "Código";
             // 
-            // frmCadastroCategoria
+            // frmCadastroSubCategoria
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(784, 561);
             Controls.Add(pnBotoes);
             Controls.Add(pnDados);
-            Name = "frmCadastroCategoria";
+            Name = "frmCadastroSubCategoria";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Cadastro de Categoria";
-            Load += frmCadastroCategoria_Load;
+            Text = "Cadastro de SubCategoria";
+            Load += frmCadastroSubCategoria_Load;
             pnBotoes.ResumeLayout(false);
             pnDados.ResumeLayout(false);
             pnDados.PerformLayout();
@@ -206,7 +222,12 @@
         protected Button btLocalizar;
         protected Button btInserir;
         protected Panel pnDados;
-
+        private Label label2;
+        private Label label1;
+        private ComboBox cbCatCod;
+        private TextBox txtNome;
+        private TextBox txtScatCod;
+        private Label label3;
 
         public String operacao;
 
@@ -237,10 +258,5 @@
                 btCancelar.Enabled = true;
             }
         }
-
-        private Label label2;
-        private Label label1;
-        private TextBox txtNome;
-        private TextBox txtCodigo;
     }
 }

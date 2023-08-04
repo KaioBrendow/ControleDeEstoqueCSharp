@@ -97,7 +97,7 @@ namespace GUI
                     this.alteraBotoes(1);
                 }
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Impossivel excluir o registro. \nO registro esta sendo utilizado em outro local");
                 this.alteraBotoes(3);
@@ -108,7 +108,7 @@ namespace GUI
         {
             frmConsultaCategoria f = new frmConsultaCategoria();
             f.ShowDialog();
-            if(f.codigo != 0)
+            if (f.codigo != 0)
             {
                 DALConexao cx = new DALConexao(DadosDaConexao.StringDeConexao);
                 BLLCategoria bLL = new BLLCategoria(cx);
