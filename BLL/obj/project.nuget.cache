@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LawEAQlqa2G0Wbgj6dk2744Bs9rBJxkTuSgqHEGi4h1YyaZDMhm6y/fxI1lTtRriUMW8AXWAenXSv2J7Ib6NJg==",
+  "dgSpecHash": "EvgQPDKBh0I2s+drpFJJQQKWxVTkJHrHNg8gSinW0sbYW4FsNd97QazcxU6RHHvpq5I6Bvhds0y2IAM5vSoqxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

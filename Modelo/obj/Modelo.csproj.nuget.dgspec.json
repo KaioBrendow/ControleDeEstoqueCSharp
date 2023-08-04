@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj": {}
+    "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj",
+        "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj",
         "packagesPath": "C:\\Users\\kaiobrendow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\obj\\",
+        "outputPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

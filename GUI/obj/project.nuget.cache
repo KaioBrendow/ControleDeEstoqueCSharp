@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gG/N6KiLOiu2R12XdFsa3RsitolGAHaXfykSQOIDWda/qyIDHC2vRoQh/3B3B21m9QdyaX08Un825QfL25N4Ig==",
+  "dgSpecHash": "cNJFG6Ag4kTKYs+0+zZPfJcqKAD0OZKtCaum1hxtOiTSpMgmRa4qt/TEDUYeMz2h9xY9ohPDJ3v1sHYpUvGU3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\GUI\\GUI.csproj",
+  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\GUI\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

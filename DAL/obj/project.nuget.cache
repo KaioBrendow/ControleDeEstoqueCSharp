@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ruUE04QXAgKIdeamJrr5H2OKtdBAkMhFUpiwZhtKrhq8+LwZ8CLqCzu7ZQQfs15r1VZN2BwitFSErQGD7C5QVA==",
+  "dgSpecHash": "tod+s+arPIwdn90fY6uaqU70gV1PJ9UOA1iBQFF7DsRdALstl92YmK7zcDgGVG7hOyEvIH0RuMft+oBHQXN2nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

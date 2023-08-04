@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    class ModeloSubCategoria
+    public class ModeloSubCategoria
     {
-        ModeloSubCategoria()
+        public ModeloSubCategoria()
         {
             this.CatCod = 0;
             this.ScatCod = 0;
             this.ScatNome = "";
         }
-        ModeloSubCategoria(int scatcod, int catcod, String snome)
+        public ModeloSubCategoria(int scatcod, int catcod, String snome)
         {
             this.CatCod = catcod;
             this.ScatCod = scatcod;

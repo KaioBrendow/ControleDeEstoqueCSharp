@@ -531,11 +531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\GUI\\GUI.csproj",
+      "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\GUI\\GUI.csproj",
       "packagesPath": "C:\\Users\\kaiobrendow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\GUI\\obj\\",
+      "outputPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -557,14 +557,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\BLL\\BLL.csproj"
+            "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\DAL\\DAL.csproj"
+            "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj": {
-              "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj"
+            "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj"
             }
           }
         }

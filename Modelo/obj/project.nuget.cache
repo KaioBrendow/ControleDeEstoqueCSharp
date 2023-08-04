@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SHwn3hcp481ShINpy7qd9Kig6w7BflKcHWlMPBPd2GXha2McYITqqVq0jjHGre8/53WcdEzkOhpVqYrl2o0uGA==",
+  "dgSpecHash": "Rlk4YwdI0kp3AI1nJ4wFwgM+Q/2JKsjUk31U6T/pHLaP0CxeC99iT/05WjynkvP70ySROUW/XWfBsFrEt05lRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\Modelo\\Modelo.csproj",
+  "projectFilePath": "C:\\Users\\kaiobrendow\\source\\repos\\ControleDeEstoque\\ControleDeEstoqueCSharp\\Modelo\\Modelo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\kaiobrendow\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
